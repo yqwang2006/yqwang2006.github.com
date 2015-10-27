@@ -1,0 +1,153 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Welcome to my personal webpage!</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+ <link href="css/dashboard.css" rel="stylesheet">
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+
+<!-- Custom Theme files -->
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Curriculum Vitae Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+<!-- start menu -->
+  
+</head>
+<body>
+<!-- header -->
+<div class="col-sm-3 col-md-2 sidebar">
+		 <div class="sidebar_top">
+			 <h1>USER NAME</h1> 
+			 <img src="images/Yueqing WANG.jpg" alt=""/>
+		 </div>
+		<div class="details">
+			 <h3>PHONE</h3>
+			 <p>+86 15973163296</p>  	 
+			 <h3>EMAIL</h3>
+			 <p><a href="yqwang2013@163.com">yqwang2013 at 163 dot com</a></p>
+			 <address>
+			 <h3>ADDRESS</h3>
+			 	 <span>National Laboratory for Parallel and Distributed Processing
+					College of Computer, National University of Defense Technology
+				</span>
+			 <span>Changsha, Hunan Province, 410073, P.R.C</span>
+			 </address>
+			 
+		</div>
+		<div class="clearfix"></div>
+</div>
+<!---->
+<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+	<!---//pop-up-box---->			
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	 <div class="content">
+		 <div class="details_header">
+			 <ul>
+				 <li><a href="index.html"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>Resume</a></li>
+				 <li><a href="#"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>Print CV</a></li>
+				 <li><a href="contact.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Email me</a></li>
+				 <li><a class="play-icon popup-with-zoom-anim" href="#small-dialog"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>View photo</a></li>
+				 <div id="small-dialog" class="mfp-hide">
+					 <img src="images/Yueqing WANG.jpg" alt=""/>
+				 </div>
+				 <script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+				</script>
+			 </ul>
+		 </div>
+		 <div class="Introduction">
+			 <h3 class="clr1">Brief introduction</h3>
+			 <h4></h4>
+			 <p class="intro1"> I was born in 1988. I received my B.S. degree in Computer Science and Technology in Tsinghua University, in 2010, and received my M.S. degree in Computer Science and Technology at National University of Defense Technology in 2012, and now I'm a Ph.D. candidate at National University of Defense Technology. My research interests include high performance computer architecture, parallel computing, and machine learning.
+			 
+		 </div>
+		 <div class="Publications">
+			 <h3 class="clr1">Publications</h3>
+			 
+			 <div class="company_details">
+				 <h4>2015</h4>
+				 
+				 <p>1. <span style="font-weight:bold;">Yueqing Wang</span>, Yong Dou, Xinwang Liu, Yuanwu Lei. PR-ELM: Parallel Regularized Extreme Learning Machine based on Cluster. Neurocomputing. DOI: 10.1016/j.neucom.2015.08.066 </p>
+			   <p>2. <span style="font-weight:bold;">Yueqing Wang</span>, Zhige Xie, Kai Xu, Yong Dou, Yuanwu Lei. An Efficient and Effective Convolutional Auto-Encoder Extreme Learning Machine Network for 3D Feature Learning. Neurocomputing. DOI: 10.1016/j.neucom.2015.10.035</p>
+			   <p>3. <span style="font-weight:bold;">Yueqing Wang</span>, Yong Dou, Song Guo, Yuanwu Lei, Baofeng Li, and Qiang Wang. Accelerating Molecular Dynamics Simulations on Heterogeneous Architecture. NCCCET 2015.</p>
+			   <p>4. <span style="font-weight:bold;">Yueqing Wang</span>, Yong Dou, Qi Lv, Baofeng Li, Teng Li, DLPF: A Parallel Deep Learning Programming Framework based on Heterogeneous Architecture[J]. Journal of Computer Research and Development. (Accepted) (in Chinese)</p></div>
+		 </div>
+		 <div class="company_details">
+				 <h4>2013</h4>
+				 
+				 <p class="cmpny1"><span style="font-weight:bold;">Yueqing Wang</span>, Yong Dou, Song Guo, Yuanwu Lei and Dan Zou. CPU–GPU hybrid parallel strategy for cosmological simulations. CONCURRENCY AND COMPUTATION: PRACTICE AND EXPERIENCE. 26(3), 748-765</p>
+			 </div>
+		 <div class="skills">
+			 <h3 class="clr2">Professional skills</h3>
+			 
+			 <div class="skill_list">
+				 <div class="skill1">
+					 <h4>Software</h4>
+					 <ul>					 
+						<li>Matlab</li>
+						<li>Visual Studio</li>
+						
+						
+					 <li>Microsoft Office 2013</li></ul>
+				 </div>
+				 <div class="skill2">
+					 <h4>Languages</h4>
+					 <ul>					 
+						<li>C/C++</li>
+						<li>Matlab</li>
+						<li>Java</li>
+						
+					 </ul>
+				 </div>
+				 <div class="clearfix"></div>
+			 </div>
+		 </div>
+		 <div class="education">
+			 <h3 class="clr3">Education</h3>
+			 <div class="education_details">
+				 <h4>Tsinghua University<span>SEPT. 2006 - JUNE 2010</span></h4>
+				 <h6>BACHELORS　OF ENGINEERING</h6>
+				 
+			 </div>
+			 <div class="education_details">
+				 <h4>National University of Denfence Technology<span>SEPT. 2010 - </span></h4>
+				 <h6>MASTER OF ENGINEERING, Ph.D. Candidate</h6>
+				 
+			 </div>
+		 </div>
+		 <div class="copywrite">
+			 <p>© 2015 Curriculum Vitae All Rights Reseverd | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+		 </div>
+	 </div>
+</div>
+<!---->
+</body>
+</html>
